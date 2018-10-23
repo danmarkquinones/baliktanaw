@@ -1,0 +1,212 @@
+*{
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Courgette', cursive;
+}
+body{
+	margin: 0 auto;
+}
+.container-fluid{
+}
+/*HEADER*/
+.name{
+	font-size: 50px;
+	color: white;
+	font-weight: bolder;
+
+}
+.name:hover{
+	color: maroon;
+}
+.head{
+	background-color: #55251D;
+	margin-bottom: 5px;
+	box-shadow: 5px 5px 10px black;
+}
+/*NAV*/
+.navbar{
+	opacity: 0.8;
+	margin-bottom: 5px;
+	box-shadow: 5px 5px 10px black;
+}
+
+/*CONTACT*/
+.row{
+	color: white;
+}
+.btn{background-color: maroon;
+		border-color: white;
+		color: white;
+}
+.read{
+	height: 400px;
+	padding: 1rem;
+	background-image: url(../images/bg1.jpg);
+	background-position: center;
+	background-size: cover;
+	box-shadow: 5px 5px 10px black;
+}
+.read ul{
+	list-style: none;
+	margin-left: 20px;
+}
+.read a{
+	text-decoration: none;
+	color: white;
+}
+.read a:hover{
+	color: maroon;
+}
+.row h2{
+	margin-left: 10px;
+}
+.row h4{
+	margin-left: 10px;
+}
+.row p{
+	margin-left: 30px;
+}
+
+/*FOLLOW*/
+.follow{
+	
+	height: 40px;
+	color: white;
+	text-align: center;
+	line-height: 40px;
+	font-size: 20px;
+	opacity: 0.8;
+	border-bottom: 1px solid brown;
+	box-shadow: 5px 5px 10px black;
+}
+.icon{
+	height: 100px;
+	width: 100px;
+	margin: 10px;
+}
+.social{
+	text-align: center;
+	color: white;
+}
+/*Contact*/
+.contact{
+	background-color: #55251D;
+	color: white;
+	height: 120px;
+	opacity: 0.7;
+}
+.bor{
+	border-right: 2px solid white;
+}
+.contact h3{
+	font-size: 15px;
+	margin-top: 10px;
+}
+.contact p{
+	font-size: 10px;
+	margin: 0;
+	margin-left: 30px;
+	font-family: sans-serif;
+}
+.soc-med-icon{
+	list-style: none;
+}
+.soc-med-icon img{
+	height: 20px;
+	width: 20px;
+	float: left;
+}
+.fb1 img{
+	margin-left: 40px;
+	margin-right: 10px;
+}
+hr{
+	background-color: white;
+}
+
+/*Footer*/
+footer{
+	background-color: grey;
+	text-align: center;
+	color: white;
+	height: 30px;
+	line-height: 30px;
+	border-top: 2px solid brown;
+	font-family: sans-serif;
+	box-shadow: 5px 5px 10px black;
+}
+
+
+
+
+
+
+/*Mobile Styles (width < 400px)*/
+@media only screen and (max-width: 400px) {
+	.icon{
+	height: 50px;
+	width: 50px;
+	margin: 10px; 
+	}
+	.social{
+		font-size: 10px;
+	}
+
+	footer{
+		font-size: 10px;
+	}
+	.form-control{
+		height: 40px;
+		width: 60%;
+	}
+	.btn{
+		height: 40px;
+		width: 35%;
+		background-color: maroon;
+		border-color: white;
+		color: white;
+		margin-left: 10px;
+	}
+	.showcase{
+		height: 300px;
+	}
+	.carousel-item img{
+		height: 300px;
+	}
+	.contact h3{
+	font-size: 10px;
+	margin-top: 10px;
+	}
+	.contact p{
+	font-size: 5px;
+	margin: 0;
+	margin-left: 10px;
+	}
+	.soc-med-icon img{
+	height: 10px;
+	width: 10px;
+	float: left;
+	margin-top: 10px;
+	}
+	.fb1 img{
+	margin-left: 20px;
+	}
+	.col-12{
+		margin-top: 10px;
+	}
+}
+
+
+/*Tablet Styles (401 < width < 960)*/
+@media only screen and (min-width: 401px) and (max-width: 960px){
+	.contact{
+		height: 150px;
+	}
+}
+
+
+/*Desktop Styles (width > 961)*/
+@media only screen and (min-width: 961px){
+	
+}

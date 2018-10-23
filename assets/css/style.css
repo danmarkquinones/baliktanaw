@@ -1,0 +1,83 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: 'Courgette', cursive;
+	font-weight: bolder;
+}
+
+#container{
+	height: 100vh;
+	background-position: center;
+	background-size: cover;
+}
+h1{
+	font-size: 42px;
+}
+#jumbotron-section{
+	padding-top: 17%;
+	width: 50%;
+	margin-left: 50%;
+	color: white;
+}
+#jumbo-land{
+	opacity: .8;
+	background-size: cover;
+	background-position: center;
+}
+.btn{
+	border: none;
+	width: 50%;
+	margin-left: 25%;
+}
+#btn{
+	text-decoration: none;
+}
+.jumbo-land:hover{
+	opacity: 1;
+}
+hr{
+	border-color: white;
+}
+
+
+
+/*Mobile Styles (width < 400px)*/
+@media only screen and (max-width: 420px) {
+	#container{
+		min-height: 620px;
+		min-width: 360px;
+		background-position: center;
+		background-size: cover;
+	}
+	#jumbotron-section{
+		padding-top: 40%;
+		width: 80%;
+		margin-left: 20%;
+		color: white;
+	}
+}
+
+
+/*Tablet Styles (401 < width < 960)*/
+@media only screen and (min-width: 421px) and (max-width: 960px){
+
+	#jumbotron-section{
+		padding-top: 10rem;
+		width: 25rem;
+		margin-left: 20rem;
+		color: white;
+	}
+	#container{
+		min-height: 620px;
+		min-width: 401px;
+	}
+}
+
+
+/*Desktop Styles (width > 961)*/
+@media only screen and (min-width: 961px){
+	body{
+		background-color: #B2D6FF;
+	}
+}
