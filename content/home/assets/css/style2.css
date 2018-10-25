@@ -54,7 +54,7 @@ body{
 		color: white;
 }
 .read{
-	height: 400px;
+	height: auto;
 	padding: 1rem;
 	background-image: url(../images/bg1.jpg);
 	background-position: center;
@@ -151,8 +151,8 @@ hr{
 	background-color: white;
 }
 .col-4 h3{
-		border-bottom: 1px solid white;
-	}
+	border-bottom: 1px solid white;
+}
 
 /*Footer*/
 footer{
@@ -207,6 +207,14 @@ footer{
 	transform: scale(1.08);
 
 }
+#gall-pic{
+	height: 300px;
+}
+.carousel{
+	box-shadow: 5px 5px 10px black;
+
+	border-radius: 10px;
+}
 
 /*scrollbar*/
 /* width */
@@ -233,11 +241,16 @@ footer{
 #side-nav{
 	position: fixed;
 	margin-left: 59%;
-	z-index: 50;
+	z-index: 2;
+	/*top: 30%;
+	position: sticky;*/
 }
 #side-nav a{
-		color: white;
-	}
+	color: white;
+}
+#side-nav a:hover{
+	color: maroon;
+}
 
 
 
@@ -300,9 +313,10 @@ footer{
 	#side-nav{
 	position: fixed;
 	margin-left: 76%;
-	z-index: 50;
-
+	z-index: 1;
 	}
+
+	
 }
 
 
@@ -319,9 +333,7 @@ footer{
 	}
 	#side-nav{
 	position: fixed;
-	margin-left: 56%;
-	z-index: 50;
-
+	margin-left: 57%;
 	}
 }
 
