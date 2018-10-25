@@ -3,6 +3,8 @@
 	padding: 0;
 	box-sizing: border-box;
 	font-family: 'Courgette', cursive;
+	text-shadow: 5px 5px 10px black;
+	scroll-behavior: smooth
 }
 body{
 	margin: 0 auto;
@@ -17,6 +19,7 @@ body{
 	font-size: 50px;
 	color: white;
 	font-weight: bolder;
+	text-shadow: 15px 15px 10px black;
 
 }
 .name:hover{
@@ -29,7 +32,7 @@ body{
 }
 /*NAV*/
 .navbar{
-	opacity: 0.8;
+	opacity: 0.9;
 	margin-bottom: 5px;
 	box-shadow: 5px 5px 10px black;
 }
@@ -147,6 +150,9 @@ body{
 hr{
 	background-color: white;
 }
+.col-4 h3{
+		border-bottom: 1px solid white;
+	}
 
 /*Footer*/
 footer{
@@ -175,15 +181,31 @@ footer{
 .none{
 	display: none;
 }
+.form-control{
+	text-shadow:none;
+}
 #cont-pic{
 	height: 150px;
 	width: 200px;
+	border-radius: 10%;
+	box-shadow: 5px 5px 10px black;
 }
 #cont-pic:hover{
 	transform: scale(1.1);
 }
 #cont-text:hover{
 	color: maroon;
+}
+/*nanay lines*/
+#line{
+	margin-bottom: 5%;
+	border-radius: 10%;
+	border: 5px double maroon; 
+	box-shadow: 5px 5px 10px black;
+}
+#line:hover{
+	transform: scale(1.08);
+
 }
 
 /*scrollbar*/
@@ -208,7 +230,14 @@ footer{
     background: #555; 
 }
 
-
+#side-nav{
+	position: fixed;
+	margin-left: 59%;
+	z-index: 50;
+}
+#side-nav a{
+		color: white;
+	}
 
 
 
@@ -268,6 +297,12 @@ footer{
 	.container-fluid{
 		width: auto;
 	}
+	#side-nav{
+	position: fixed;
+	margin-left: 76%;
+	z-index: 50;
+
+	}
 }
 
 
@@ -281,6 +316,12 @@ footer{
 	}
 	#cont-text{
 		margin-left: 28%;
+	}
+	#side-nav{
+	position: fixed;
+	margin-left: 56%;
+	z-index: 50;
+
 	}
 }
 

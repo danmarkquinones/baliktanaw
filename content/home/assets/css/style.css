@@ -3,6 +3,7 @@
 	padding: 0;
 	box-sizing: border-box;
 	font-family: 'Courgette', cursive;
+	text-shadow: 5px 5px 10px black;
 }
 body{
 	margin: 0 auto;
@@ -12,6 +13,7 @@ body{
 	font-size: 50px;
 	color: white;
 	font-weight: bolder;
+	text-shadow: 15px 15px 10px black;
 
 }
 .head{
@@ -22,6 +24,9 @@ body{
 .name:hover{
 	color: maroon;
 }
+.form-control{
+	text-shadow:none;
+}
 .btn{
 		background-color: maroon;
 		border-color: white;
@@ -30,7 +35,7 @@ body{
 
 /*NAV*/
 .navbar{
-	opacity: 0.8;
+	opacity: 0.9;
 	margin-bottom: 5px;
 	box-shadow: 5px 5px 10px black;
 }
@@ -115,6 +120,9 @@ body{
 hr{
 	background-color: white;
 }
+.col-4 h3{
+		border-bottom: 1px solid white;
+	}
 
 /*Footer*/
 footer{
@@ -164,6 +172,7 @@ footer{
 .about p{
 	margin-left: 30px;
 }
+
 
 
 
