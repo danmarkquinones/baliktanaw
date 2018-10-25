@@ -209,6 +209,7 @@ footer{
 }
 #gall-pic{
 	height: 300px;
+	border-radius: 10px;
 }
 .carousel{
 	box-shadow: 5px 5px 10px black;
