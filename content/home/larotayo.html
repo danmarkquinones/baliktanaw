@@ -16,8 +16,10 @@
 	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
 	<!-- external CSS -->
 	<link rel="stylesheet" type="text/css" href="assets/css/style2.css">
-	<!-- animation -->
+	<!-- .............animation.............. -->
 	<link rel="stylesheet" type="text/css" href="assets/css/animate.css">
+	<!--........Scroll Animation.................... -->
+	<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
 	<title>Laro Tayo! | BalikTanaw</title>
 </head>
@@ -86,14 +88,14 @@
 				<ul class="list-unstyled">
 
 				  	<li class="media ">	
-				  		<div class="row">
+				  		<div class="row" data-aos="fade-right">
 				  			
 					  		<div id="cont-div" class="col-12 col-md-2">
 					  			
 					    		<img id="cont-pic" class="mr-3" src="assets/images/l1.jpg" alt="Tumbang Preso">
 					  		</div>	
 
-					    	<div id="cont-text" class="media-body col-12 col-md-9">
+					    	<div id="cont-text" class="media-body col-12 col-md-9" data-aos="fade-left">
 					      		<h5 class="mt-0 mb-1">Tumbang Preso</h5>
 					      		<p>
 					      		Ihanda ang paboritong tsinelas at ang latang walang laman. Matutong pumila ng maayos, hintaying ang iyong pagkakataon at subukan patumbahin ang lata.
@@ -105,7 +107,7 @@
 
 				  	<li class="media my-4">
 				  		<div class="row">
-				  			<div id="cont-div" class="col-12 col-md-2">
+				  			<div id="cont-div" class="col-12 col-md-2" >
 					    		<img id="cont-pic" class="mr-3" src="assets/images/l2.jpg" alt="Luksong Baka">
 					    	</div>
 
@@ -119,11 +121,11 @@
 				  	</li>
 				  	<li class="media">
 				  		<div class="row">
-				  			<div class="col-12 col-md-2">
+				  			<div class="col-12 col-md-2" >
 				  				
 					    		<img id="cont-pic" class="mr-3" src="assets/images/l3.jpg" alt="Luksong Tinik">
 				  			</div>
-					    	<div id="cont-text" class="media-body col-12 col-md-9">
+					    	<div id="cont-text" class="media-body col-12 col-md-9" >
 					      		<h5 class="mt-0 mb-1">Luksong Tinik</h5>
 					      		<p>
 					      			Parang Luksong Baka lang din, baka lang dun dito tinik. Mas ligtas kesa sa nauna.
@@ -132,8 +134,8 @@
 				  		</div>
 				  	</li>
 				 	 <li class="media my-4">
-				 	 	<div class="row">
-				 	 		<div class="col-12 col-md-2">
+				 	 	<div class="row" >
+				 	 		<div class="col-12 col-md-2" >
 				 	 			
 					    		<img id="cont-pic" class="mr-3" src="assets/images/l4.jpg" alt="Patintero">
 				 	 		</div>
@@ -165,6 +167,7 @@
 				  				
 					    	<img id="cont-pic" class="mr-3" src="assets/images/l6.png" alt="Chinese Garter">
 				  			</div>
+
 					    	<div id="cont-text" class="media-body col-12 col-md-9">
 					      		<h5 class="mt-0 mb-1">Chinese Garter</h5>
 					      		<p>
@@ -175,11 +178,11 @@
 				 	 </li>
 				 	 <li class="media">
 				 	 	<div class="row">
-				 	 		<div class="col-12 col-md-2">
+				 	 		<div class="col-12 col-md-2" >
 				 	 			
 					    	<img id="cont-pic" class="mr-3" src="assets/images/l7.jpg" alt="Tagu-taguan">
 				 	 		</div>
-					    	<div id="cont-text" class="media-body col-12 col-md-9">
+					    	<div id="cont-text" class="media-body col-12 col-md-9" >
 					      		<h5 class="mt-0 mb-1">Tagu-taguan</h5>
 					      		<p>
 					      			<q>Tagu-taguan, maliwanag ang buwan, pagbilang kong tatlo nakatago na kayo.</q> Aminin mo kinanta mo. ang nakaka badtrip talaga dito yung mga kalaro mong umuuwi eh, habang hinahanap mo sila sa labas, nandun na pala sa kanya kanyang bahay nagmimeryenda.
@@ -344,7 +347,7 @@
 			</div>	<!-- end of laro tayo -->
 			
 			<!-- Read Also -->
-			<div class="col-12 col-md-4">
+			<div class="col-12 col-md-4" >
 				<div id="readme" class="read my-3">
 					<h5>Read Also :</h5>
 					<hr>
@@ -358,7 +361,7 @@
 					<hr>
 					
 					<!-- Gallery -->
-					<div class="throwback">
+					<div class="throwback animated fadeIn delay-2s">
 						<h5>Throwback Gallery</h5>
 						<hr>
 						<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
@@ -400,12 +403,12 @@
 					</div>
 					<!-- end of gallery -->
 					
-					
 				</div>
 			</div>
 			<!-- End of Read Also -->
 		</section>
 		<!-- End of Content -->
+					
 		
 		<!-- Footer extension -->
 		<section class="contacts container-fluid animated fadeIn delay-3s">
@@ -462,6 +465,11 @@
 
 <!-- 3rd. external bootstrap js -->
 <script src="assets/js/bootstrap.min.js"></script>
+<!-- Scroll Animation -->
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 
 </body>
 </html>
