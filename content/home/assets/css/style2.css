@@ -14,6 +14,9 @@ body{
 	background-position: center;
 	background-size: cover;
 }
+#body-container{
+	background-image: url(../images/bg7.jpg);
+}
 /*HEADER*/
 .name{
 	font-size: 50px;
@@ -30,11 +33,18 @@ body{
 	margin-bottom: 5px;
 	box-shadow: 5px 5px 10px black;
 }
+#head{
+	background-image: url(../images/bg3.jpg);
+	background-position: center;
+}
 /*NAV*/
 .navbar{
 	opacity: 0.9;
 	margin-bottom: 5px;
 	box-shadow: 5px 5px 10px black;
+}
+#navbar{
+	background-image: url(../images/bg1.jpg);
 }
 
 /*CONTACT ME and ABOUT*/
@@ -99,6 +109,10 @@ body{
 	border-bottom: 1px solid brown;
 	box-shadow: 5px 5px 10px black;
 }
+#follow{
+	background-image: url(../images/bg3.jpg);
+	background-position: center;
+}
 .icon{
 	height: 100px;
 	width: 100px;
@@ -107,6 +121,9 @@ body{
 .social{
 	text-align: center;
 	color: white;
+}
+#social{
+	background-image: url(../images/bg1.jpg);
 }
 
 
@@ -164,6 +181,8 @@ footer{
 	border-top: 2px solid brown;
 	font-family: sans-serif;
 	box-shadow: 5px 5px 10px black;
+	background-image: url(../images/bg3.jpg);
+	background-position: center;
 }
 
 /*Content*/

@@ -8,6 +8,7 @@
 }
 
 #container{
+	background-image: url(../images/bg3.jpg);
 	height: 100vh;
 	background-position: center;
 	background-size: cover;
@@ -28,12 +29,20 @@ h1{
 	background-position: center;
 	box-shadow: 5px 5px 10px black;
 }
+#jumbotron-section #jumbo-land{
+	background-image: url(../images/bg7.jpg)
+}
 .btn{
 	border: none;
 	width: 50%;
 	margin-left: 25%;
 	
 }
+
+#first-container #landing-button{
+	background-color: #55251d;
+}
+
 #btn{
 	text-decoration: none;
 	box-shadow: 5px 5px 5px black;

@@ -16,6 +16,13 @@ body{
 	text-shadow: 15px 15px 10px black;
 
 }
+#home-1{
+	background-image: url(../images/bg7.jpg);
+}
+#home-head{
+	background-image: url(../images/bg3.jpg);
+	background-position: center;
+}
 .head{
 	background-color: #55251D;
 	margin-bottom: 5px;
@@ -38,6 +45,9 @@ body{
 	opacity: 0.9;
 	margin-bottom: 5px;
 	box-shadow: 5px 5px 10px black;
+}
+#navbar{
+	background-image: url(../images/bg1.jpg);
 }
 
 /*Showcase*/
@@ -69,6 +79,10 @@ body{
 	border-bottom: 1px solid brown;
 	box-shadow: 5px 5px 10px black;
 }
+#follow{
+	background-image: url(../images/bg3.jpg);
+	background-position: center;
+}
 .icon{
 	height: 100px;
 	width: 100px;
@@ -77,6 +91,9 @@ body{
 .social{
 	text-align: center;
 	color: white;
+}
+#social-row{
+	background-image: url(../images/bg1.jpg);
 }
 /*Contact*/
 .contact{
@@ -134,6 +151,10 @@ footer{
 	border-top: 2px solid brown;
 	font-family: sans-serif;
 	box-shadow: 5px 5px 10px black;
+}
+#foot{
+	background-image: url(../images/bg3.jpg);
+	background-position: center;
 }
 
 /*CONTACT ME and ABOUT*/
