@@ -1,3 +1,4 @@
+/*---------------universal----------------*/
 *{
 	margin:0;
 	padding: 0;
@@ -16,8 +17,11 @@ body{
 }
 #body-container{
 	background-image: url(../images/bg7.jpg);
+	background-attachment: fixed;
 }
-/*HEADER*/
+/*-----------------------end of universal--------------*/
+
+/*-------------------------HEADER----------------------*/
 .name{
 	font-size: 50px;
 	color: white;
@@ -37,7 +41,9 @@ body{
 	background-image: url(../images/bg3.jpg);
 	background-position: center;
 }
-/*NAV*/
+/*--------------------------end of header-------------------*/
+
+/*-----------------------------NAV------------------------*/
 .navbar{
 	opacity: 0.9;
 	margin-bottom: 5px;
@@ -46,8 +52,9 @@ body{
 #navbar{
 	background-image: url(../images/bg1.jpg);
 }
+/*-------------------------end of nav--------------------------*/
 
-/*CONTACT ME and ABOUT*/
+/*-------------------CONTACT ME and ABOUT-----------------------*/
 .row{
 	color: white;
 	animation-duration: 10s;
@@ -63,6 +70,9 @@ body{
 		border-color: white;
 		color: white;
 }
+/*---------------------end of Contact me-------------------------*/
+
+/*-----------------ReadMe----------------------*/
 .read{
 	height: auto;
 	padding: 1rem;
@@ -91,13 +101,16 @@ body{
 .about p{
 	margin-left: 30px;
 }
-/*ABOUT*/
+/*----------------end of read me--------------*/
+
+/*--------------------ABOUT----------------------------*/
 #tungkol{
 	background-image: url(../images/bg1.jpg);
 	box-shadow: 5px 5px 10px black;
 }
+/*-------------------end of about-----------------------*/
 
-/*FOLLOW*/
+/*-------------------FOLLOW US-----------------------------*/
 .follow{
 	
 	height: 40px;
@@ -131,9 +144,9 @@ body{
 #social{
 	background-image: url(../images/bg1.jpg);
 }
+/*-----------------------end of Follow us------------------------*/
 
-
-/*Disclaimer Footer*/
+/*----------------------Disclaimer Footer-----------------------*/
 .contact{
 	background-color: #55251D;
 	color: white;
@@ -176,8 +189,9 @@ hr{
 .col-4 h3{
 	border-bottom: 1px solid white;
 }
+/*---------End of diclaimer----------------------------*/
 
-/*Footer*/
+/*----------------------Footer---------------------------*/
 footer{
 	background-color: grey;
 	text-align: center;
@@ -189,17 +203,19 @@ footer{
 	box-shadow: 5px 5px 10px black;
 	background-image: url(../images/bg3.jpg);
 	background-position: center;
-}
 
-/*Content*/
+}
+/*-------------------------End of footer--------------------*/
+
+/*-------------------------oldContent------------------*/
 .content{
-	overflow-y: scroll;
+	/*overflow-y: scroll;*/
 	margin-top: 10px;
 	padding: 1rem;
 	background-image: url(../images/bg1.jpg);
 	background-position: center;
 	background-size: cover;
-	height: 700px;
+	height: auto;
 	margin-bottom: 10px;
 	box-shadow: 5px 5px 10px black;
 }
@@ -221,28 +237,22 @@ footer{
 #cont-text:hover{
 	color: maroon;
 }
-/*nanay lines*/
-#line{
-	margin-bottom: 5%;
-	border-radius: 10%;
-	border: 5px double maroon; 
-	box-shadow: 5px 5px 10px black;
-}
-#line:hover{
-	transform: scale(1.08);
+/* ----------------end of old Content-----------------------*/
 
-}
+/*-----------------------nanay lines-------------------*/
 #gall-pic{
-	height: 300px;
+	height: 500px;
 	border-radius: 10px;
 }
 .carousel{
 	box-shadow: 5px 5px 10px black;
-
 	border-radius: 10px;
+	margin-left: 10%;
+	margin-right: 10%;
 }
+/*-----------------------end of nanay lines-------------------*/
 
-/*scrollbar*/
+/*-------------------costumized scrollbar--------------------*/
 /* width */
 ::-webkit-scrollbar {
     width: 5px;
@@ -263,23 +273,236 @@ footer{
 ::-webkit-scrollbar-thumb:hover {
     background: #555; 
 }
+/*------------------End of Costumized Scroll Bar--------------*/
 
+/*------------------Side Nav Bar -------------------*/
 #side-nav{
 	position: fixed;
-	margin-left: 59%;
+	margin-left: 95%;
 	z-index: 2;
-	/*top: 30%;
-	position: sticky;*/
 }
 #side-nav a{
+	border-radius: 10px;
 	color: white;
+	background-color: maroon;
+	border: 3px solid white;
 }
 #side-nav a:hover{
 	color: maroon;
+	background-color: white;
+	border: 3px solid maroon;
+}
+/*-------------End of Side Nav Bar-----------------*/
+
+/*--------------New Content--------------------------*/
+.paralax{
+	height: 400px;
+	background-image: url(../images/s1.jpg);
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center;
+	text-align: center;
+}
+.paralax2{
+	height: 400px;
+	background-image: url(../images/s2.jpeg);
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center;
+	text-align: center;
+}
+.paralax3{
+	height: 400px;
+	background-image: url(../images/s3.jpg);
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center;
+	text-align: center;
+}
+.paralax4{
+	height: 400px;
+	background-image: url(../images/bg3.jpg);
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: top;
+	text-align: center;
+	box-shadow: 10px 10px 10px black;
+}
+.paralax span,
+.paralax2 span,
+.paralax3 span,
+.paralax4 span{
+	text-align: center;
+	border:5px double white;
+	padding: 1rem;
+	font-size: 50px;
+	position: relative;
+	top: 40%;
+	border-radius: 10px;
+	text-shadow: 10px 10px 10px black;
+	box-shadow: 10px 10px 10px black;
+}
+.card{
+	cursor: pointer;
+	width: 100%;
+	height: 480px;
+	background-color: transparent;
+	margin-top: 10%;
+	box-shadow: 5px 5px 10px black;
+	border-radius: 10px;
+}
+.front,
+.back{
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	backface-visibility: hidden;
+	position: absolute;
+	transition:transform .6s linear;
+	border-radius: 10px;
+}
+.front img{
+	height: 100%;
+	width: 100%;
+}
+.front{
+	background: black;
+	transform: perspective(600px) rotateY(0deg);
+	
+}
+.back{
+	background-image: url(../images/bg6.jpg);
+	background-position: center;
+	background-size: cover;
+	padding: 1rem;
+	transform: perspective(600px) rotateY(180deg);
+
+}
+.back-content{
+	margin-top: 35%;
+	text-align: center;
+	width: 100%;
+	justify-content: center;
+}
+#content-button a{
+	text-decoration: none;
+	color: white;
+}
+/*for rotation*/
+.card:hover > .front{
+	transform: perspective(600px) rotateY(-180deg);
+}
+.card:hover > .back{
+	transform: perspective(600px) rotateY(0deg);
+}
+/*-----End of New Content------------------*/
+
+/*----------New Gallery--------------------*/
+
+
+/*Cube*/
+.cube{
+	
+	transform-style: preserve-3d;
+	width: 200px;
+	height: 200px;
+	margin: auto;
+	position: relative;
+
+}
+.cube img{
+	
+	width: 200px;
+	height: 200px;
+	position: absolute;
+	opacity: 1;
+
+
+}
+.cube img:nth-child(1){
+	transform: rotateY(0deg) translateZ(100px);
+}
+.cube img:nth-child(2){
+	transform: rotateY(90deg) translateZ(100px);
+}
+.cube img:nth-child(3){
+	transform: rotateY(180deg) translateZ(100px);
+}
+.cube img:nth-child(4){
+	transform: rotateY(-90deg) translateZ(100px);
+}
+.cube img:nth-child(5){
+	transform: rotateX(90deg) translateZ(100px);
+}
+.cube img:nth-child(6){
+	transform: rotateX(-90deg) translateZ(100px);
+}
+.wrap{
+	/*margin-top: 20%;*/
+	margin-left: 5%;
+	perspective: 1000px;
+	perspective-origin: 50% 50%;
 }
 
+@keyframes loop{
+	from{transform: rotateX(0deg) rotateY(0deg);}
+	to{transform: rotateX(360deg) rotateY(360deg);}
+}
+.cube{
 
-/*Mobile Styles (width < 400px)*/
+	animation: loop 30s linear infinite;
+}
+/*end of cube*/
+/*gallery picture*/
+#body-box{
+	min-height: 500px;
+	background: rgba(0,0,0,0.5);
+	margin: 20px auto 0; 
+
+}
+.box-pic{
+	 width: 300px;
+	 height: 300px;
+	 background: grey;
+	 overflow: hidden;
+	 box-shadow: 10px 10px 10px black;
+
+}
+.box-pic img{
+	width: 100%;
+	height: 100%;
+	transition: transform 2s; 
+}
+.box-pic:hover img{
+	transform: scale(1.2);
+}
+.hover-cube{
+	position: absolute;
+	top: 20px;
+	left: 30px;
+	right: 25px;
+	bottom: 20px;
+	
+	background: rgba(0,0,0,0.5);
+	transform: scaleY(0);
+	transition: transform .5s;
+}
+#trans:hover .hover-cube{
+	transform: scaleY(1);
+}
+.hover-cube #wrap{
+	position: absolute;
+	top: 10%;
+	left: 5%;
+	bottom: 10%;
+	right: 20%;
+
+}
+
+/*---------------End of Gallery--------------*/
+
+
+/*-----------------Mobile Styles (width < 400px)--------------------*/
 @media only screen and (max-width: 420px) {
 	.icon{
 	height: 50px;
@@ -338,12 +561,39 @@ footer{
 	#side-nav{
 		display: none;
 	}
-
+	.card{
 	
+	width: 100%;
+	height: 400px;
+	background-color: transparent;
+	}
+	.back-content{
+	margin-top: 15%;
+	}
+	#content-button{
+		font-size: 10px;
+	}
+	.paralax span,
+	.paralax2 span,
+	.paralax3 span{
+		font-size: 20px;
+	}
+	.paralax4{
+		background-position: left;
+		height: 200px;
+	}
+	.paralax4 span{
+		font-size: 15px;
+	}
+	.box-pic{
+		width: 100%;
+		height: 300px;
+	}
+
 }
+/*--------------------end of media style---------------------*/
 
-
-/*Tablet Styles (401 < width < 960)*/
+/*----------------------Tablet Styles (401 < width < 960)--------------------*/
 @media only screen and (min-width: 421px) and (max-width: 960px){
 	.contact{
 		height: 150px;
@@ -356,14 +606,42 @@ footer{
 	}
 	#side-nav{
 	position: fixed;
-	margin-left: 57%;
+	margin-left: 90%;
+	}
+
+	.card{
+	/*width: 250px;*/
+	height: 400px;	
+	}
+	.back-content{
+	margin-top: 10%;
+	}
+	.paralax span,
+	.paralax2 span,
+	.paralax3 span{
+		font-size: 30px;
+	}
+	.paralax4{
+		background-position: left;
+	}
+	.paralax4 span{
+		font-size: 20px;
+	}
+	.box-pic{
+		width: 100%;
+	}
+	.hover-cube{
+		right: 25px;
 	}
 }
 
+/*----------------End Tablet Styles (401 < width < 960)--------------------*/
 
-/*Desktop Styles (width > 961)*/
+
+/*---------------Desktop Styles (width > 961)---------------------*/
 @media only screen and (min-width: 961px){
 	#cont-text{
 		margin-left: 10%;
 	}
 }
+/*---------------End of Desktop Styles (401 < width < 960)--------------------
