@@ -302,6 +302,7 @@ footer{
 	background-size: cover;
 	background-position: center;
 	text-align: center;
+	box-shadow: 10px 10px 10px black;
 }
 .paralax2{
 	height: 400px;
@@ -310,6 +311,7 @@ footer{
 	background-size: cover;
 	background-position: center;
 	text-align: center;
+	box-shadow: 10px 10px 10px black;
 }
 .paralax3{
 	height: 400px;
@@ -318,6 +320,7 @@ footer{
 	background-size: cover;
 	background-position: center;
 	text-align: center;
+	box-shadow: 10px 10px 10px black;
 }
 .paralax4{
 	height: 400px;
@@ -450,7 +453,7 @@ footer{
 }
 .cube{
 
-	animation: loop 30s linear infinite;
+	animation: loop 10s linear infinite;
 }
 /*end of cube*/
 /*gallery picture*/
@@ -458,6 +461,7 @@ footer{
 	min-height: 500px;
 	background: rgba(0,0,0,0.5);
 	margin: 20px auto 0; 
+	padding-bottom: 3rem;
 
 }
 .box-pic{
@@ -500,6 +504,13 @@ footer{
 }
 
 /*---------------End of Gallery--------------*/
+
+/*-------------Playlist---------------*/
+#playlist{
+	width: 100%;
+}
+
+/*-------------End of playlist----------*/
 
 
 /*-----------------Mobile Styles (width < 400px)--------------------*/
